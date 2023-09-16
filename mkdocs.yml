@@ -1,0 +1,25 @@
+site_name: Unit 1
+site_url: https://www.learnpytorch.io
+site_description: Seminar Presentation Notes
+
+# repo_url: https://github.com/yehzx/{repo}
+# repo_name: yehzx/{repo}
+
+theme:
+  name: material
+  highlightjs: true
+  features:
+    - navigation.instant
+    - navigation.top
+  palette:
+    primary: black
+
+markdown_extensions:
+  - pymdownx.tilde
+  - pymdownx.betterem
+
+plugins:
+  - search
+
+nav:
+  - Home: 'index.md'
