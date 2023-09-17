@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+## Selected papers
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+1. [Epigenetic dynamics of centromeres and neocentromeres in *Cryptococcus deuterogattii*](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009743)
 
-## Commands
+    Authors: **Klaas Schotanus**, **Vikas Yadav**, **Joseph Heitman**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+2. [Heterochromatin and RNAi act independently to ensure genome stability in Mucorales human fungal pathogens](https://www.pnas.org/doi/10.1073/pnas.2220475120?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    Authors: **María Isabel Navarro-Mendoza**, **Carlos Pérez-Arques**, and **Joseph Heitman**

@@ -17,9 +17,20 @@ theme:
 markdown_extensions:
   - pymdownx.tilde
   - pymdownx.betterem
+  - attr_list
+  - md_in_html
 
 plugins:
   - search
+  - glightbox
 
 nav:
   - Home: 'index.md'
+  - Epigenetic dynamics:
+    - Background knowledge: '1_background.md'
+    - Introduction: '1_introduction.md'
+    - Results and Discussion: '1_results_discussion.md'
+  - Heterochromatin and RNAi:
+    - Background knowledge: '2_background.md'
+    - Introduction: '2_introduction.md'
+    - Results and Discussion: '2_results_discussion.md'
