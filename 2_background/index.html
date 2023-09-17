@@ -10,22 +10,28 @@
       
       
       
+        <link rel="canonical" href="https://www.learnpytorch.io/2_background/">
       
       
+        <link rel="prev" href="../1_results_discussion/">
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      
+        <link rel="next" href="../2_introduction/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
     
     
       
-        <title>Unit 1</title>
+        <title>Background knowledge - Unit 1</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.046329b4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.046329b4.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.85d0ee34.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -44,14 +50,25 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -68,6 +85,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#rna-induced-transcriptional-silencing-rits" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -80,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Unit 1" class="md-header__button md-logo" aria-label="Unit 1" data-md-component="logo">
+    <a href=".." title="Unit 1" class="md-header__button md-logo" aria-label="Unit 1" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -100,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Background knowledge
             
           </span>
         </div>
@@ -174,7 +196,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Unit 1" class="md-nav__button md-logo" aria-label="Unit 1" data-md-component="logo">
+    <a href=".." title="Unit 1" class="md-nav__button md-logo" aria-label="Unit 1" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -191,7 +213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -244,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1_background/" class="md-nav__link">
+      <a href="../1_background/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -264,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1_introduction/" class="md-nav__link">
+      <a href="../1_introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -284,7 +306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1_results_discussion/" class="md-nav__link">
+      <a href="../1_results_discussion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -309,17 +331,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
@@ -332,7 +356,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Heterochromatin and RNAi
@@ -343,9 +367,27 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/2_background/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Background knowledge
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -354,6 +396,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rna-induced-transcriptional-silencing-rits" class="md-nav__link">
+    RNA-induced transcriptional silencing (RITS)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cotranscriptional-gene-silencing-ctgs" class="md-nav__link">
+    Cotranscriptional gene silencing (CTGS)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-1-and-class-2-transposon" class="md-nav__link">
+    Class 1 and Class 2 Transposon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#long-terminal-repeat-ltr" class="md-nav__link">
+    Long terminal repeat (LTR)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -365,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2_introduction/" class="md-nav__link">
+      <a href="../2_introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -385,7 +473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2_results_discussion/" class="md-nav__link">
+      <a href="../2_results_discussion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -424,6 +512,42 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rna-induced-transcriptional-silencing-rits" class="md-nav__link">
+    RNA-induced transcriptional silencing (RITS)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cotranscriptional-gene-silencing-ctgs" class="md-nav__link">
+    Cotranscriptional gene silencing (CTGS)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-1-and-class-2-transposon" class="md-nav__link">
+    Class 1 and Class 2 Transposon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#long-terminal-repeat-ltr" class="md-nav__link">
+    Long terminal repeat (LTR)
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -434,8 +558,30 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  <h1>Background knowledge</h1>
+
+<h3 id="rna-induced-transcriptional-silencing-rits">RNA-induced transcriptional silencing (RITS)</h3>
+<p>Source: <a href="https://en.wikipedia.org/wiki/RNA-induced_transcriptional_silencing">RNA-induced transcriptional silencing - Wikipedia</a></p>
+<p>RNA-induced transcriptional silencing (RITS) is a form of RNA interference by which short RNA molecules – such as small interfering RNA (siRNA) – trigger the downregulation of transcription of a particular gene or genomic region. This is usually accomplished by posttranslational modification of histone tails (e.g. methylation of lysine 9 of histone H3) which target the genomic region for heterochromatin formation. The protein complex that binds to siRNAs and interacts with the methylated lysine 9 residue of histones H3 (H3K9me2) is the RITS complex.</p>
+<h3 id="cotranscriptional-gene-silencing-ctgs">Cotranscriptional gene silencing (CTGS)</h3>
+<p>Source: <a href="https://www.nature.com/articles/nsmb1315">Transcription and RNAi in heterochromatic gene silencing | Nature Structural &amp; Molecular Biology</a></p>
+<p><a class="glightbox" href="../images/2_intro_CTGS.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/2_intro_CTGS.png" /></a></p>
+<h3 id="class-1-and-class-2-transposon">Class 1 and Class 2 Transposon</h3>
+<p>Source: <a href="https://www.differencebetween.com/what-is-the-difference-between-class-i-and-class-ii-transposable-elements/">What is the Difference Between Class I and Class II Transposable Elements | Compare the Difference Between Similar Terms</a></p>
+<p><a class="glightbox" href="../images/2_intro_transposon_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/2_intro_transposon_1.png" /></a>
+<a class="glightbox" href="../images/2_intro_transposon_2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/2_intro_transposon_2.png" /></a></p>
+<h3 id="long-terminal-repeat-ltr">Long terminal repeat (LTR)</h3>
+<p>Source: <a href="https://en.wikipedia.org/wiki/Long_terminal_repeat">Long terminal repeat - Wikipedia</a></p>
+<p>A long terminal repeat (LTR) is <strong>a pair of identical sequences of DNA, several hundred base pairs long, which occur in eukaryotic genomes on either end of a series of genes or pseudogenes that form a retrotransposon or an endogenous retrovirus or a retroviral provirus</strong>. All retroviral genomes are flanked by LTRs, while there are some retrotransposons without LTRs. Typically, an element flanked by a pair of LTRs will encode a reverse transcriptase and an integrase, allowing the element to be copied and inserted at a different location of the genome. Copies of such an LTR-flanked element can often be found hundreds or thousands of times in a genome.</p>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -473,11 +619,11 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.instant", "navigation.top"], "search": "/assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top"], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
