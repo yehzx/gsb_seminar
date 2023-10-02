@@ -10,26 +10,26 @@
       
       
       
-        <link rel="canonical" href="https://www.learnpytorch.io/">
+        <link rel="canonical" href="https://www.learnpytorch.io/question_answers/">
+      
+      
+        <link rel="prev" href="../2_results_discussion/">
       
       
       
-        <link rel="next" href="1_background/">
-      
-      
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
     
     
       
-        <title>Unit 1</title>
+        <title>QA Section - Unit 1</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.046329b4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.046329b4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.85d0ee34.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -48,14 +48,14 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -66,7 +66,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#selected-papers" class="md-skip">
+        <a href="#1-why-do-we-care-about-h3k9me23-but-not-h3k9me" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Unit 1" class="md-header__button md-logo" aria-label="Unit 1" data-md-component="logo">
+    <a href=".." title="Unit 1" class="md-header__button md-logo" aria-label="Unit 1" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              QA Section
             
           </span>
         </div>
@@ -194,7 +194,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Unit 1" class="md-nav__button md-logo" aria-label="Unit 1" data-md-component="logo">
+    <a href=".." title="Unit 1" class="md-nav__button md-logo" aria-label="Unit 1" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -209,27 +209,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -238,31 +220,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#selected-papers" class="md-nav__link">
-    Selected papers
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -307,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="1_background/" class="md-nav__link">
+      <a href="../1_background/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -327,7 +284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="1_introduction/" class="md-nav__link">
+      <a href="../1_introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -347,7 +304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="1_results_discussion/" class="md-nav__link">
+      <a href="../1_results_discussion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -408,7 +365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2_background/" class="md-nav__link">
+      <a href="../2_background/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -428,7 +385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2_introduction/" class="md-nav__link">
+      <a href="../2_introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -448,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2_results_discussion/" class="md-nav__link">
+      <a href="../2_results_discussion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -473,9 +430,27 @@
       
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="question_answers/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    QA Section
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -484,6 +459,78 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-do-we-care-about-h3k9me23-but-not-h3k9me" class="md-nav__link">
+    1. Why do we care about H3K9me2/3 but not H3K9me?
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Why do we care about H3K9me2/3 but not H3K9me?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-about-hp1-the-component-that-mediates-gene-silencing" class="md-nav__link">
+    Introduction about HP1, the component that mediates gene silencing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-reason-why-h3k9me23" class="md-nav__link">
+    The reason why H3K9me2/3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-is-the-difference-between-h3k9me2-and-h3k9me3" class="md-nav__link">
+    2. What is the difference between H3K9me2 and H3K9me3?
+  </a>
+  
+    <nav class="md-nav" aria-label="2. What is the difference between H3K9me2 and H3K9me3?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#their-conclusion" class="md-nav__link">
+    Their conclusion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-of-their-results" class="md-nav__link">
+    Part of their results
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -513,9 +560,56 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#selected-papers" class="md-nav__link">
-    Selected papers
+  <a href="#1-why-do-we-care-about-h3k9me23-but-not-h3k9me" class="md-nav__link">
+    1. Why do we care about H3K9me2/3 but not H3K9me?
   </a>
+  
+    <nav class="md-nav" aria-label="1. Why do we care about H3K9me2/3 but not H3K9me?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-about-hp1-the-component-that-mediates-gene-silencing" class="md-nav__link">
+    Introduction about HP1, the component that mediates gene silencing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-reason-why-h3k9me23" class="md-nav__link">
+    The reason why H3K9me2/3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-is-the-difference-between-h3k9me2-and-h3k9me3" class="md-nav__link">
+    2. What is the difference between H3K9me2 and H3K9me3?
+  </a>
+  
+    <nav class="md-nav" aria-label="2. What is the difference between H3K9me2 and H3K9me3?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#their-conclusion" class="md-nav__link">
+    Their conclusion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-of-their-results" class="md-nav__link">
+    Part of their results
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -534,19 +628,23 @@
                   
 
 
-  <h1>Home</h1>
+  <h1>QA Section</h1>
 
-<h2 id="selected-papers">Selected papers</h2>
-<ol>
-<li>
-<p><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009743">Epigenetic dynamics of centromeres and neocentromeres in <em>Cryptococcus deuterogattii</em></a></p>
-<p>Authors: <strong>Klaas Schotanus</strong>, <strong>Vikas Yadav</strong>, <strong>Joseph Heitman</strong></p>
-</li>
-<li>
-<p><a href="https://www.pnas.org/doi/10.1073/pnas.2220475120?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub++0pubmed">Heterochromatin and RNAi act independently to ensure genome stability in Mucorales human fungal pathogens</a></p>
-<p>Authors: <strong>María Isabel Navarro-Mendoza</strong>, <strong>Carlos Pérez-Arques</strong>, and <strong>Joseph Heitman</strong></p>
-</li>
-</ol>
+<h3 id="1-why-do-we-care-about-h3k9me23-but-not-h3k9me">1. Why do we care about H3K9me2/3 but not H3K9me?</h3>
+<p>Source: <a href="https://www.nature.com/articles/35065138">Selective recognition of methylated lysine 9 on histone H3 by the HP1 chromo domain</a></p>
+<h4 id="introduction-about-hp1-the-component-that-mediates-gene-silencing">Introduction about HP1, the component that mediates gene silencing</h4>
+<p>Heterochromatin protein 1 (HP1) is localized at heterochromatin sites where it mediates gene silencing. The chromo domain of HP1 is necessary for both targeting and transcriptional repression. In the fission yeast <em>Schizosaccharomyces pombe</em>, the correct localization of Swi6 (the HP1 equivalent) depends on Clr4, a homologue of the mammalian SUV39H1 histone methylase. Both Clr4 and SUV39H1 methylate specifically lysine 9 of histone H3.</p>
+<h4 id="the-reason-why-h3k9me23">The reason why H3K9me2/3</h4>
+<p>HP1 shows clear selectivity for methylated Lys 9 as it does not bind to methylated Lys 4. <strong>HP1 recognized di-methylated Lys 9 as efficiently as tri-methylated Lys 9, and all mammalian forms of HP1 (α, β and γ) show the same selectivity for methylated Lys 9 (data not shown)</strong>.</p>
+<p><em>Short answer: Since HP1 mediates gene silencing and cannot recognize mono-methylated Lys 9, H3K9me is thus not a heterochromatin mark.</em></p>
+<h3 id="2-what-is-the-difference-between-h3k9me2-and-h3k9me3">2. What is the difference between H3K9me2 and H3K9me3?</h3>
+<p>Source: <a href="https://www.nature.com/articles/nsmb.1406">Roles of the Clr4 methyltransferase complex in nucleation, spreading and maintenance of heterochromatin | Nature Structural &amp; Molecular Biology</a></p>
+<h4 id="their-conclusion">Their conclusion</h4>
+<p>Our analyses further uncover an important functionality of the Clr4 methyltransferase, which is to both write and read the H3K9me chromatin mark. We show that Clr4 binds specifically to H3K9me via its chromodomain. This interaction facilitates the spreading and stable maintenance of heterochromatic structures during cell division, thereby providing a mechanism for the epigenetic inheritance of a defined chromatin state.</p>
+<h4 id="part-of-their-results">Part of their results</h4>
+<p>Clr4 contains a chromodomain motif that is essential for efficient methylation of H3K9 at heterochromatic loci. The Clr4 chromodomain bound specifically to H3K9me but did not bind to H3K4me, H3K27me, H3K36me or H4K20me. <strong>Much stronger binding was observed for trimethylated H3K9 (H3K9me3), which is preferentially enriched throughout the heterochromatic domains in the <em>S. pombe</em> genome, as compared to the mono- or dimethylated counterparts.</strong></p>
+<p><em>Short answer: No big difference, but the efficiency of recognition by Clr4 is not the same. H3K9me3 has a higher affinity.</em></p>
+<p><a class="glightbox" href="../images/QA_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/QA_1.png" target="_blank" /></a></p>
 
 
 
@@ -590,10 +688,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.top"], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top"], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
