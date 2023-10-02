@@ -8,6 +8,10 @@ Source: [Cryptococcus gattii - Wikipedia](https://en.wikipedia.org/wiki/Cryptoco
 
 *Cryptococcus gattii* has recently been divided into five species. These are *C. gattii*, *C. bacillisporus*, ***C. deuterogattii***, *C. tetragattii*, and *C. decagattii*.
 
+Source: [The evolution of sexual reproduction and mating-type locus: links to pathogenesis of Cryptococcus human pathogenic fungi](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7025156/){:target="_blank"}
+
+The human pathogenic Cryptococcus species complex belongs to the phylum Basidiomycota; based on genetic divergence and reproductive isolation identified through genetic crosses, there are currently seven different species defined in this complex . The Cryptococcus pathogenic species are major opportunistic human fungal pathogens that cause cryptococcal meningoencephalitis in both immunocompromised and immunocompetent individuals.
+
 > TODO: so why *C. gattii* in their experiment?
 
 
